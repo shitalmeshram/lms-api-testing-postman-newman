@@ -1,0 +1,92 @@
+[
+ {
+   "userLoginEmailId": "team2@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "plain",
+   "expectedStatus": 415
+ },
+ {
+   "userLoginEmailId": "team2@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "xml",
+   "expectedStatus": 415
+ },
+ {
+   "userLoginEmailId": "team2@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "javascript",
+   "expectedStatus": 415
+ },
+ {
+   "userLoginEmailId": "",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2@gmail.com",
+   "password": "",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "",
+   "password": "",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2@",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2@gmail..com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": ".team2@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2.@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2@gmail",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team 2@@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2-@gmail.com",
+   "password": "ApiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 400
+ },
+ {
+   "userLoginEmailId": "team2@gmail.com",
+   "password": "BpiHackathon@2",
+   "contentType": "json",
+   "expectedStatus": 401
+ }
+]
