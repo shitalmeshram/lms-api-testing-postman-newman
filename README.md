@@ -33,8 +33,6 @@ This project demonstrates end-to-end API testing for the Learning Management Sys
 - Improved API reliability through structured test cases
 - Automated regression testing using Newman
 
-## 📷 Sample Output
-(Add screenshots here if you have reports)
 
 ## 👤 Author
 Shital Pilare
